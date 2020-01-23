@@ -1,0 +1,6 @@
+- key: name
+  label: 氏名
+  type: text
+- key: email
+  label: E-mail
+  type: email
