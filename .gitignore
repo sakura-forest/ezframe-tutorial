@@ -4,10 +4,8 @@ vendor/
 .bundle/
 node_modules/
 .vscode/
-log/*
-db/*
-**/log/*
-**/db/*
+**/log/*.log
+**/db/*.sqlite
 pkg/
 *.old
 *.gem
