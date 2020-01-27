@@ -8,7 +8,7 @@
 3. bundle install --path=vendor/bundle
 4. bundle exec create_table.rb
 5. bundle exec rackup --port 3001
-6. ブラウザで[http://localhost:3001]を開く。
+6. ブラウザで http://localhost:3001 を開く。
 
 # ポイント
 
@@ -20,7 +20,7 @@
 * pages/address.rbでEzframeモジュールに含まれるAddressクラスを定義します。
   * columns/*.ymlで定義したのと同じ名前のクラスを作ってください。
   * ファイル名は何でもいい。
-* [http://localhost:3001/address]でもAddressクラスにアクセスできます。
+* http://localhost:3001/address でもAddressクラスにアクセスできます。
   * /で、どのクラスにアクセスするかは、config/generic.ymlの中のdefault_page_classで設定します。
 
 # データ項目の追加
@@ -41,3 +41,4 @@ bundle exec create_table.rb
 bundle exec rackup --port 3001
 ```
 
+* ブラウザをリロードして、データを新規データを追加してみてください。

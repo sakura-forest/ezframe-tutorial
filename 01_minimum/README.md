@@ -8,20 +8,20 @@
 3. bundle install --path=vendor/bundle
 4. bundle exec create_table.rb
 5. bundle exec rackup --port 3000
-6. ブラウザで[http://localhost:3000]を開く
+6. ブラウザで http://localhost:3000 を開く
 
 # ポイント
 
 * pages/basic.rbにH1要素を表示するメソッドを定義しています。
 
-* [http://localhost:3000/basic]でもAddressクラスにアクセスできます。
+* http://localhost:3000/basic でもAddressクラスにアクセスできます。
   * /で、どのクラスにアクセスするかは、config/generic.ymlの中のdefault_page_classで設定します。
 
 * public_default_pageメソッドは/でアクセスしたときに、呼び出されます。
 
 ## URLの追加
 
-* 例えば[http://localhost:3000/another]でアクセスを可能にしたいとします。
+* 例えば http://localhost:3000/another でアクセスを可能にしたいとします。
 
 * basic.rbのBasicクラスの中に以下のメソッドを追加します。
 ```ruby
@@ -32,5 +32,5 @@
 
 ```
 
-* rackupを再起動して、ブラウザで[http://localhost:3000/another]を開いてみてください。
+* rackupを再起動して、ブラウザで http://localhost:3000/another を開いてみてください。
 
