@@ -37,7 +37,7 @@
 
 ```sh
 rm db/devel.sql
-bundle exec create_table.rb
+bundle exec create_table
 bundle exec rackup --port 3001
 ```
 

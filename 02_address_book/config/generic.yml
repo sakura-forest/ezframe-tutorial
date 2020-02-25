@@ -1,3 +1,0 @@
-default_page_class: Address
-template_file: base.html
-favicon: /image/favicon.ico

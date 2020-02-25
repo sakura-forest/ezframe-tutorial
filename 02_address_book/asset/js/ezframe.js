@@ -146,11 +146,7 @@ function exec_one_response(res) {
     console.log("inject: " + res.inject)
     elem = document.querySelector(res.inject)
     if (elem) {
-      if (res.is_html) {
-        elem.innerHTML = res.body
-      } else {
-        elem.innerHTML = htmlgen(res.body)
-      }
+      elem.innerHTML = res.body
       add_event(elem)
     } else {
       console.log("inject: no such element: "+res.inject)
