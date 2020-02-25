@@ -7,4 +7,4 @@ require "ezframe"
 use Rack::Session::Pool
 use Rack::Static, urls: ["/image", "/js", "/css"], root: "asset"
 use Rack::ShowExceptions
-run Ezframe::Server
+run Ezframe::Server.new

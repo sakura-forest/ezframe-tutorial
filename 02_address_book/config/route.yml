@@ -1,0 +1,4 @@
+route:
+        /:
+                class: Address
+        address:
