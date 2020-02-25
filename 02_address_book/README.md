@@ -6,7 +6,7 @@
 1. git clone git@github.com:sakura-forest/ezframe-tutorial.git
 2. cd ezframe-tutorial/02_address_book
 3. bundle install --path=vendor/bundle
-4. bundle exec create_table.rb
+4. bundle exec create_table
 5. bundle exec rackup --port 3001
 6. ブラウザで http://localhost:3001 を開く。
 
