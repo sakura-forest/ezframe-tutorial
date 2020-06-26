@@ -4,5 +4,5 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "ezframe", :path => "../../ezframe" 
-gem "ezframe", ">= 0.1.1"
+# gem "ezframe", :path => "../../../work/ezframe" 
+gem "ezframe", ">= 0.4.1"

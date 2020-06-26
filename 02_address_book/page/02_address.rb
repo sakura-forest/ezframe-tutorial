@@ -1,5 +1,5 @@
 module Ezframe
-  class Address < DataEditor
+  class Address < SinglePageEditor
     include PageLayout
   end
 end
